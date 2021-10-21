@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Sunnyside agency landing page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="header">
+        <nav class="navbar">
+          <img src="./images/logo.svg" class="logo" />
+
+          <ul id="navLinks">
+            <img
+              src="./images/close_icon.svg"
+              class="close menu"
+              onclick="hideMenu()"
+            />
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <img
+            src="./images/icon-hamburger.svg"
+            class="menu"
+            onclick="showMenu()"
+          />
+        </nav>
+
+        <h1>we are creatives</h1>
+        <div class="arrow-icon">
+          <img src="./images/icon-arrow-down.svg" />
+        </div>
+      </section>
+
+      <section class="second-section">
+        <div class="texts">
+          <h3>Transform your brand</h3>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+
+          <a href="#">Learn more</a>
+        </div>
+
+        <div class="transform-img">
+          <img src="./images/desktop/image-transform.jpg" />
+        </div>
+      </section>
+
+      <section class="third-section">
+        <div class="standout-img">
+          <img src="./images/desktop/image-stand-out.jpg" alt="" />
+        </div>
+
+        <div class="texts">
+          <h3>Stand out to the right audience</h3>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+
+          <a href="#">Learn more</a>
+        </div>
+      </section>
+
+      <section class="fourth-section">
+        <div class="text graphic-design">
+          <h4>Graphic design</h4>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+
+        <div class="text photography">
+          <h4>Photography</h4>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </section>
+
+      <section class="fifth-section">
+        <h5>Client testimonials</h5>
+
+        <div class="testimonials">
+          <div class="testimonial">
+            <div class="emily-img">
+              <img src="./images/image-emily.jpg" />
+            </div>
+
+            <p class="emily">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h6>Emily R.</h6>
+            <p class="small text"><small>marketing director</small></p>
+          </div>
+
+          <div class="testimonial">
+            <div class="thomas-img">
+              <img src="./images/image-thomas.jpg" />
+            </div>
+
+            <p class="thomas">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h6>Thomas S.</h6>
+            <p class="small text"><small>chief operating officer</small></p>
+          </div>
+
+          <div class="testimonial">
+            <div class="jennie-img">
+              <img src="./images/image-jennie.jpg" />
+            </div>
+
+            <p class="jennie">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h6>Jennie F.</h6>
+            <p class="small text"><small>business owner</small></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-section">
+        <div class="milk">
+          <img src="./images/desktop/image-gallery-milkbottles.jpg" />
+        </div>
+        <div class="orange">
+          <img src="./images/desktop/image-gallery-orange.jpg" />
+        </div>
+        <div class="cone">
+          <img src="./images/desktop/image-gallery-cone.jpg" />
+        </div>
+        <div class="sugarcubes">
+          <img src="./images/desktop/image-gallery-sugarcubes.jpg" />
+        </div>
+      </section>
+
+      <section class="footer">
+        <div class="logo">
+          <img src="./images/logo.svg" class="logo-footer" />
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+
+        <ul class="footer-links">
+          <li>
+            <a href="#"><img src="./images/icon-facebook.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-instagram.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-twitter.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/icon-pinterest.svg" /></a>
+          </li>
+        </ul>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https//github.com/didhee">didhee</a>.
+        </div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
